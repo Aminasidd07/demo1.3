@@ -1,0 +1,15 @@
+#unordered-list{
+       font-size: 16px; 
+        color: #555;
+        text-transform:uppercase;
+    }
+    .para{
+        font-family: 'Courier New'; 
+        color:#222;
+    }
+    #overview{
+        color: darkred;
+        text-decoration:underline;
+        background-color:bisque;
+        font-style:italic;
+    }
