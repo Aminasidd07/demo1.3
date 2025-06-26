@@ -14,6 +14,7 @@
         font-size: 16px; 
         color: #444;
         text-transform:uppercase;
+        list-style-type:lower-greek;
     }
 </style>
 </head>
@@ -21,11 +22,11 @@
 
     <section>
         <div>
-            <h1 style="font-family: Arial, sans-serif; color: navy;">
+            <h1 id=title style="font-family: Arial, sans-serif; color: navy;">
                 Welcome to the Solar System Explorer
             </h1>
             <p id=para-1>
-                Explore the wonders of our <strong>solar system</strong> and learn fun facts about <em>planets</em>, moons, and space missions.
+                Explore the wonders of our <span class=main>solar system</span> and learn fun facts <span class=line-css>about<em> planets</em>, moons, and </span> space missions.
             </p>
         </div>
         <hr/>
@@ -37,7 +38,7 @@
                 Planets in Order from the Sun
             </h2>
             <ol id="ordered-list">
-                <li>Mercury</li>
+                <li id="planet">Mercury</li>
                 <li>Venus</li>
                 <li>Earth</li>
                 <li>Mars</li>

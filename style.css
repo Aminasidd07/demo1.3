@@ -2,6 +2,7 @@
        font-size: 16px; 
         color: #555;
         text-transform:uppercase;
+        list-style-position:outside;
     }
     .para{
         font-family: 'Courier New'; 
@@ -12,4 +13,19 @@
         text-decoration:underline;
         background-color:bisque;
         font-style:italic;
+    }
+    #title{
+        text-align:center;
+    }
+    .main{
+        text-transform:uppercase;
+        font-weight: bold ;
+        color:blue;
+    }
+    .line-css{
+        word-spacing:20px;
+        line-height:-70px;
+    }
+    #planet{
+       list-style-image:url(images/mercury.png); 
     }
