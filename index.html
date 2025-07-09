@@ -1,112 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar System Explorer</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-    #para-1{
-        font-size: 18px; 
-        color: #333;
-    }
-    #ordered-list{
-        font-size: 16px; 
-        color: #444;
-        text-transform:uppercase;
-        list-style-type:lower-greek;
-    }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solar System Explorer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <section>
-        <div>
-            <h1 id=title style="font-family: Arial, sans-serif; color: navy;">
-                Welcome to the Solar System Explorer
-            </h1>
-            <p id=para-1>
-                Explore the wonders of our <span class=main>solar system</span> and learn fun facts <span class=line-css>about<em> planets</em>, moons, and </span> space missions.
-            </p>
-        </div>
-        <hr/>
-    </section>
+  <section>
+    <div>
+      <h1 id="title">Welcome to the Solar System Explorer</h1>
+      <p id="para-1">
+        Explore the wonders of our <span class="main">solar system</span> and learn fun facts 
+        <span class="line-css">about<em> planets</em>, moons, and </span> space missions.
+      </p>
+    </div>
+    <hr/>
+  </section>
 
-    <section>
-        <div>
-            <h2 style="color: darkgreen; font-family: 'Verdana';">
-                Planets in Order from the Sun
-            </h2>
-            <ol id="ordered-list">
-                <li id="planet">Mercury</li>
-                <li>Venus</li>
-                <li>Earth</li>
-                <li>Mars</li>
-                <li>Jupiter</li>
-                <li>Saturn</li>
-                <li>Uranus</li>
-                <li>Neptune</li>
-            </ol>
-        </div>
-    </section>
+  <section>
+    <div class="float-box">
+      <h2 class="heading-green">Planets in Order from the Sun</h2>
+      <ol id="ordered-list">
+        <li id="planet">Mercury</li>
+        <li>Venus</li>
+        <li>Earth</li>
+        <li>Mars</li>
+        <li>Jupiter</li>
+        <li>Saturn</li>
+        <li>Uranus</li>
+        <li>Neptune</li>
+      </ol>
+    </div>
+  </section>
 
-    <section>
-        <div>
-            <h2 style="color: maroon; font-family: 'Georgia';">
-                Astronaut Checklist
-            </h2>
-            <ul id="unordered-list">
-                <li>Spacesuit</li>
-                <li>Oxygen Tank</li>
-                <li>Food Supplies</li>
-                <li>Navigation System</li>
-            </ul>
-        </div>
-    </section>
+  <section>
+    <div>
+      <h2 class="heading-maroon">Astronaut Checklist</h2>
+      <ul id="unordered-list">
+        <li>Spacesuit</li>
+        <li>Oxygen Tank</li>
+        <li>Food Supplies</li>
+        <li>Navigation System</li>
+      </ul>
+    </div>
+  </section>
 
-    <section>
-        <div>
-            <h2 style="color: darkblue;">Scientific Notations</h2>
-            <p class=para>Water formula: H<sub>2</sub>O</p>
-            <p class="para">Sulfuric acid: H<sub>2</sub>SO<sub>4</sub></p>
-            <p class=para>Einstein’s equation: E = mc<sup>2</sup></p>
-            <p style="color: gray;"><del>Pluto</del> is no longer officially classified as a planet.</p>
-        </div>
-    </section>
+  <section>
+    <div>
+      <h2 class="heading-blue">Scientific Notations</h2>
+      <p class="para">Water formula: H<sub>2</sub>O</p>
+      <p class="para">Sulfuric acid: H<sub>2</sub>SO<sub>4</sub></p>
+      <p class="para">Einstein’s equation: E = mc<sup>2</sup></p>
+      <p class="faded"> <del>Pluto</del> is no longer officially classified as a planet.</p>
+    </div>
+  </section>
 
-    <section>
-        <div>
-            <h2 style="color: teal;">Earth from Space</h2>
-            <img src="images/earth.jpg" alt="Earth from space" width="300" style="border: 2px solid black;">
-        </div>
-    </section>
+  <section>
+    <div>
+      <h2>Earth from Space</h2>
+      <img src="images/earth.jpg" alt="Earth from space" class="earth-image" />
+    </div>
+  </section>
 
-    <section>
-        <div>
-            <h2 style="color: purple;">Helpful Links</h2>
-            <p style="font-size: 17px;">
-                For more information, visit 
-                <a href="https://solarsystem.nasa.gov/" target="_blank" style="color: darkorange;">
-                    NASA Solar System Exploration
-                </a>.
-            </p>
-        </div>
-    </section>
+  <section>
+    <div class="grid-container">
+      <div class="grid-item">There are 194 moons, 3,583 comets, and 796,289 asteroids in the solar system.</div>
+      <div class="grid-item">99.86% of the solar system’s mass is found in the Sun.</div>
+      <div class="grid-item">The Moon is drifting away from Earth ~3.8 cm/year.</div>
+      <div class="grid-item">Jupiter has 90+ confirmed moons.</div>
+      <div class="grid-item">Saturn has the most visible ring system.</div>
+    </div>
+  </section>
 
-    <section>
-        <div>
-            <h2 id=overview>Watch a Solar System Overview</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/libKVRa01L8?si=mJtVO0CcpaPS5TVJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </section>
+  <section>
+    <div>
+      <h2 class="heading-purple">Helpful Links</h2>
+      <p class="help-text">
+        For more information, visit 
+        <a href="https://solarsystem.nasa.gov/" target="_blank" class="nasa-link">
+          NASA Solar System Exploration
+        </a>.
+      </p>
+    </div>
+  </section>
 
-    <section>
-        <div>
-            <p style="font-style: italic; font-size: 18px; color: green;">
-                Thank you for visiting the Solar System Explorer. Keep reaching for the stars!
-            </p>
-        </div>
-    </section>
+  <section>
+    <div>
+      <h2 id="overview">Watch a Solar System Overview</h2>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/libKVRa01L8?si=mJtVO0CcpaPS5TVJ" 
+        title="YouTube video player" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <p class="closing-message">
+        Thank you for visiting the Solar System Explorer. Keep reaching for the stars!
+      </p>
+    </div>
+  </section>
 
 </body>
 </html>
